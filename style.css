@@ -8,5 +8,49 @@ body {
 .pokemon {
     flex-basis: 15%;
     margin: 10px;
-    background-color: gray;
+    background-color: #f2f2f2;
+}
+
+.pokemon-type-background-bug, .pokemon-type-background-electric, .pokemon-type-background-fire, .pokemon-type-background-flying, .pokemon-type-background-grass, .pokemon-type-background-ground, .pokemon-type-background-normal, .pokemon-type-background-poison, .pokemon-type-background-warter {
+    padding: 1.6px 4.8px;
+}
+
+.pokemon-type-background-grass {
+    background-color: #9bcc50;
+}
+
+.pokemon-type-background-poison {
+    background-color: #b97fc9;
+    color: #FFF;
+}
+
+.pokemon-type-background-fire {
+    background-color: #fd7d24;
+    color: #FFF;
+}
+
+.pokemon-type-background-warter {
+    background-color: #4592c4;
+    color: #FFF;
+}
+
+.pokemon-type-background-bug {
+    background-color: #729f3f;
+    color: #FFF;
+}
+
+.pokemon-type-background-flying {
+    background-image: linear-gradient( #3dc7ef, #bdb9b8 )
+}
+
+.pokemon-type-background-normal {
+    background-color: #a4acaf;
+}
+
+.pokemon-type-background-electric {
+    background-color: #eed535;
+}
+
+.pokemon-type-background-ground {
+    background-image: linear-gradient(#eed535, #ab9842);
 }
