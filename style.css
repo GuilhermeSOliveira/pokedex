@@ -24,7 +24,7 @@ body {
     font-size: 20px;
 }
 
-.pokemon-type-background-bug, .pokemon-type-background-electric, .pokemon-type-background-fire, .pokemon-type-background-flying, .pokemon-type-background-grass, .pokemon-type-background-ground, .pokemon-type-background-normal, .pokemon-type-background-poison, .pokemon-type-background-warter {
+.pokemon-type-background-dragon, .pokemon-type-background-steel, .pokemon-type-background-fairy, .pokemon-type-background-rock, .pokemon-type-background-ghost, .pokemon-type-background-ice, .pokemon-type-background-psychic, .pokemon-type-background-fighting, .pokemon-type-background-bug, .pokemon-type-background-electric, .pokemon-type-background-fire, .pokemon-type-background-flying, .pokemon-type-background-grass, .pokemon-type-background-ground, .pokemon-type-background-normal, .pokemon-type-background-poison, .pokemon-type-background-water {
     padding: 1.6px 4.8px;
     margin: 0 10px;
     font-size: 20px;
@@ -44,7 +44,7 @@ body {
     color: #FFF;
 }
 
-.pokemon-type-background-warter {
+.pokemon-type-background-water {
     background-color: #4592c4;
     color: #FFF;
 }
@@ -72,4 +72,37 @@ body {
 
 .pokemon-type-background-fairy {
     background-color: #fdb9e9;
+}
+
+.pokemon-type-background-fighting {
+    background-color: #d56723;
+    color: #FFF;
+}
+
+.pokemon-type-background-psychic {
+    background-color: #f366b9;
+    color: #FFF;
+}
+
+.pokemon-type-background-ice {
+    background-color: #51c4e7;
+}
+
+.pokemon-type-background-ghost {
+    background-color: #7b62a3;
+    color: #FFF;
+}
+
+.pokemon-type-background-rock {
+    background-color: #a38c21;
+    color: #FFF;
+}
+
+.pokemon-type-background-dragon {
+    background-image: linear-gradient(#53a4cf, #f16e57);
+    color: #FFF;
+}
+
+.pokemon-type-background-steel {
+    background-color: #9eb7b8;
 }
