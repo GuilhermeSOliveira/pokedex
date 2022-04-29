@@ -55,7 +55,8 @@ const pokedex = [
     "id": 4,
     "name": "Charmander",
     "type": [
-      "fire"
+      "fire",
+      ""
     ],
     "stats": {
       "total": 309,
@@ -2723,7 +2724,7 @@ function adcicionarPokemon(pokedex) {
             <span class="pokemon-type-background-`+ pokedex[i].type[1] +`">`+ pokedex[i].type[1] +`</span>
           </div>
         </section>
-        <section class="pokemon-stats">
+        <section class="pokemon-stats" id="pokemon-stats">
           <div class="stat-row">
             <div>hp</div>
             <div class="stat-bar">
@@ -2770,3 +2771,15 @@ function adcicionarPokemon(pokedex) {
 
 adcicionarPokemon(pokedex);
 
+
+
+/*let stats = document.querySelectorAll('.pokemon');
+
+function mostrarStats (stats){
+
+  for (let i = 0; i < stats.length; i++){
+    stats[i].onclick = function () {
+      console.log(stats[i])
+    }
+  }
+}*/

@@ -21,7 +21,9 @@ body {
 }
 
 .pokemon-stats {
+    display: flex;
     font-size: 20px;
+    visibility: hidden;
 }
 
 .pokemon-type-background-dragon, .pokemon-type-background-steel, .pokemon-type-background-fairy, .pokemon-type-background-rock, .pokemon-type-background-ghost, .pokemon-type-background-ice, .pokemon-type-background-psychic, .pokemon-type-background-fighting, .pokemon-type-background-bug, .pokemon-type-background-electric, .pokemon-type-background-fire, .pokemon-type-background-flying, .pokemon-type-background-grass, .pokemon-type-background-ground, .pokemon-type-background-normal, .pokemon-type-background-poison, .pokemon-type-background-water {
