@@ -1,0 +1,23 @@
+.filtros {
+    margin: 10rem auto 0;
+    text-align: center;
+    padding: 0 5rem;
+}
+
+.nome {
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 1rem;
+}
+
+.tipo {
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 1rem;
+}
+
+.classificacao {
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 1rem;
+}

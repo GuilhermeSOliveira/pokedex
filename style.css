@@ -1,4 +1,11 @@
-body {
+.titulo {
+    text-align: center;
+    font-size: 4rem;
+    background-color: #000;
+    color: #FFF;
+}
+
+#pokedex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

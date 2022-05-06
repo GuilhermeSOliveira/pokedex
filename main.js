@@ -2705,7 +2705,10 @@ const pokedex = [
     }
   }
 ]
-let root = document.getElementById('root')
+let root = document.getElementById('pokedex')
+let nome = document.querySelector('.nome')
+let tipo = document.querySelectorAll('.tipo')
+console.log(tipo.value)
 
 function adcicionarPokemon(pokedex) {
   let element = "";
@@ -2714,7 +2717,7 @@ function adcicionarPokemon(pokedex) {
     element += `
       <div class="pokemon" data-name="`+ pokedex[i].name +`" data-type="` + pokedex[i].type +`" tabindex="1">
         <figure class="pokemon-figure">
-          <img src="src/`+ pokedex[i].name + ".png" +`" alt="`+ pokedex[i].name +`">
+          <img src="src/images/`+ pokedex[i].name + ".png" +`" alt="`+ pokedex[i].name +`">
         </figure>
         <section class="pokemon-description">
           <span class="pokemon-id">`+ "#" + pokedex[i].id +`</span>
@@ -2771,15 +2774,24 @@ function adcicionarPokemon(pokedex) {
 
 adcicionarPokemon(pokedex);
 
-
-
-/*let stats = document.querySelectorAll('.pokemon');
-
-function mostrarStats (stats){
-
-  for (let i = 0; i < stats.length; i++){
-    stats[i].onclick = function () {
-      console.log(stats[i])
+function encontrarNomePokemon (nome, pokedex) {
+  
+  for(let i = 0; i < pokedex.length; i++){
+    if(nome.value == pokedex[i].name){
+      console.log("Achou")
     }
   }
-}*/
+}
+
+encontrarNomePokemon(nome, pokedex)
+
+function encontrarTipoPokemon (tipo, pokedex) {
+  
+  for(let i = 0; i < pokedex.length; i++){
+    if(tipo.value == pokedex[i].type[i]){
+      console.log("Acertou")
+    }
+  }
+}
+
+encontrarTipoPokemon(tipo, pokedex);
